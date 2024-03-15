@@ -46,8 +46,8 @@ Ze względu na bezpieczeństwo, nie jestem w stanie udostępnić swoich wartoś�
 Oto jak powinien wyglądać plik json dla scrapera Twitter.ipynb:
 
 {
-   "consumer_key": "*******************************************",
-   "consumer_secret": "******************************************",
-   "access_token": "******************************************",
-   "access_token_secret": "******************************************"
+   "consumer_key": "*$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+   "consumer_secret": "$$$$$$$$$$$$$$$$$$$$$$$$$$",
+   "access_token": "$$$$$$$$$$$$$$$$$$$$$$$$$$",
+   "access_token_secret": "$$$$$$$$$$$$$$$$$$$$$$$$$$"
 }
