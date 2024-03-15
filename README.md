@@ -15,7 +15,7 @@ Repozytorium zawiera dwie aplikacje służące do scrapowania danych z platform 
 
 ## Użyte technologie
 
-Obie aplikacje zostały napisane w technologii Python za pomocą notatnika Jupyter Notebook. Dane kluczy konta użytkownika do API Reddita oraz Twittera zostały zapisane w plikach json. Dane zostały zapisane w bazie nosql MongoDB.
+Obie aplikacje zostały napisane w technologii Python za pomocą notatnika Jupyter Notebook. Dane kluczy konta użytkownika do API Reddita oraz Twittera zostały zapisane w plikach json. Dane zostały zapisane w bazie NoSQL MongoDB.
 
 
 ## Zrealizowane funkcjonalności 
@@ -41,9 +41,9 @@ Jeżeli aplikacje mają zostać odpalone lokalnie, na samym początku tworzymy n
 
 ## Ograniczenia
 
-Niestety ze względów braku dostępu do darmowego Google CLoud oraz AWS nie udostępniłem skryptu na obsługę chmurową. Jeżeli miałbym do takowej opcji dostęp, cały skrypt zostałby sprowadzony do jednej funckji, w której argumentami byłyby np. słowa kluczowe takie jak nazwa redditu lub nazwa użytkownika. Taka funkcja mogłaby zostać wtedy poddana schedulowi i mogłaby być uruchamiana raz na dzień.
+Niestety ze względów braku dostępu do darmowego Google CLoud oraz AWS nie udostępniłem skryptu na obsługę chmurową. Jeżeli miałbym do takowej opcji dostęp, cały skrypt zostałby sprowadzony do jednej funckji, w której argumentami byłyby np. słowa kluczowe takie jak nazwa redditu lub nazwa użytkownika. Taka funkcja mogłaby być uruchamiana np. raz dziennie.
 
-Ze względu na bezpieczeństwo, nie jestem w stanie udostępnić swoich wartośći kluczy do API platformy X. 
+Ze względu na bezpieczeństwo, nie powinienem udostępnić swoich wartośći kluczy do API platformy X. 
 W pliku twitter_config.json zamieniamy hashtagi na poprawne dane z API Twittera z konta developerskiego.
 
 
