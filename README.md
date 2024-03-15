@@ -51,3 +51,5 @@ Oto jak powinien wyglądać plik json dla scrapera Twitter.ipynb:
    "access_token": "$$$$$$$$$$$$$$$$$$$$$$$$$$",
    "access_token_secret": "$$$$$$$$$$$$$$$$$$$$$$$$$$"
 }
+
+Oczywiście jestem w stanie pokazać jak to działa podczas rozmowy.
