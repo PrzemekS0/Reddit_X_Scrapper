@@ -6,6 +6,7 @@
 * [Zrealizowane funkcjonalności](#zrealizowane-funkcjonalności)
 * [Konfiguracja](#konfiguracja)
 * [Ograniczenia](#ograniczenia)
+* [Zrzuty ekranu](#zrzuty-ekranu-bazy)
 
 ## Informacje Ogólne
 
@@ -40,16 +41,24 @@ Jeżeli aplikacje mają zostać odpalone lokalnie, na samym początku tworzymy n
 
 ## Ograniczenia
 
-Niestety ze względów braku dostępu do darmowego Google CLoud oraz AWS nie udostępniłem skryptu na obsługę chmurową. Jeżeli miałbym do takowej opcji dostęp, cały skrypt zostałby sprowadzony do jednej funckji, w której argumentami byłyby np. słowa kluczowe takie jak nazwa redditu lub nazwa użytkownika. Taka funkcja mogłaby zostać wtedy poddana schedule'owi i mogłaby być uruchamiana raz na dzień.
+Niestety ze względów braku dostępu do darmowego Google CLoud oraz AWS nie udostępniłem skryptu na obsługę chmurową. Jeżeli miałbym do takowej opcji dostęp, cały skrypt zostałby sprowadzony do jednej funckji, w której argumentami byłyby np. słowa kluczowe takie jak nazwa redditu lub nazwa użytkownika. Taka funkcja mogłaby zostać wtedy poddana schedulowi i mogłaby być uruchamiana raz na dzień.
 
 Ze względu na bezpieczeństwo, nie jestem w stanie udostępnić swoich wartośći kluczy do API platformy X. 
 Oto jak powinien wyglądać plik json dla scrapera Twitter.ipynb:
 
 {
-   "consumer_key": "*$$$$$$$$$$$$$$$$$$$$$$$$$$$",
-   "consumer_secret": "$$$$$$$$$$$$$$$$$$$$$$$$$$",
-   "access_token": "$$$$$$$$$$$$$$$$$$$$$$$$$$",
-   "access_token_secret": "$$$$$$$$$$$$$$$$$$$$$$$$$$"
+   "consumer_key": "*******************************************",
+   "consumer_secret": "******************************************",
+   "access_token": "******************************************",
+   "access_token_secret": "******************************************"
 }
 
-Oczywiście jestem w stanie pokazać jak to działa podczas rozmowy.
+
+## Zrzuty ekranu bazy
+
+![SubRedditsBase](./img/SubRedditsBase.png)
+![X_Collections](./img/X_Collections.png)
+![Hastahs_data](./img/Hashtag_data.png)
+![Tweets_data](./img/Tweets_data.png)
+
+
