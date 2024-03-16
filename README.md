@@ -17,6 +17,7 @@ Repozytorium zawiera dwie aplikacje służące do scrapowania danych z platform 
 
 Obie aplikacje zostały napisane w technologii Python za pomocą notatnika Jupyter Notebook. Dane kluczy konta użytkownika do API Reddita oraz Twittera zostały zapisane w plikach json. Dane zostały zapisane w bazie NoSQL MongoDB.
 
+Postanowiłem wybrać scrapwoanie za pomocą API, ponieważ dostarcza wiele danych, bez konieczności wybierania każdego elementu z kodu HTML jakby to było w przypadku BeautifullSoup oraz Selenium. 
 
 ## Zrealizowane funkcjonalności 
 
