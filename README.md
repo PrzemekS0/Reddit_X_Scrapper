@@ -7,6 +7,7 @@
 * [Konfiguracja](#konfiguracja)
 * [Ograniczenia](#ograniczenia)
 * [Zrzuty ekranu](#zrzuty-ekranu-bazy)
+* [Informacje dodatkowe](#informacje-dodatkowe)
 
 ## Informacje Ogólne
 
@@ -17,7 +18,7 @@ Repozytorium zawiera dwie aplikacje służące do scrapowania danych z platform 
 
 Obie aplikacje zostały napisane w technologii Python za pomocą notatnika Jupyter Notebook. Dane kluczy konta użytkownika do API Reddita oraz Twittera zostały zapisane w plikach json. Dane zostały zapisane w bazie NoSQL MongoDB.
 
-Postanowiłem wybrać scrapwoanie za pomocą API, ponieważ dostarcza wiele danych, bez konieczności wybierania każdego elementu z kodu HTML jakby to było w przypadku BeautifullSoup oraz Selenium. 
+Postanowiłem wybrać scrapwoanie za pomocą API, ponieważ dostarcza wiele danych, bez konieczności wybierania każdego elementu z kodu HTML jakby to było w przypadku BeautifullSoup oraz Selenium, a scrapowanie za pomocą tych bibliotek stron dynamicznych jest lekko ograniczone. 
 
 ## Zrealizowane funkcjonalności 
 
@@ -56,3 +57,6 @@ W pliku twitter_config.json zamieniamy hashtagi na poprawne dane z API Twittera 
 ![Tweets_data](./img/Tweets_data.png)
 
 
+## Informacje dodatkowe
+
+Na moim repozytorium SpamerBot jest dostępny kod scrapera w Selenium. Natomiast w repozytorium JobScraper są scrapery napisane w BeautifullSoup.
