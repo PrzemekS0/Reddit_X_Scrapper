@@ -47,7 +47,7 @@ Niestety ze względów braku dostępu do darmowego Google CLoud oraz AWS nie udo
 
 Ze względu na bezpieczeństwo, nie powinienem udostępnić swoich wartośći kluczy do API platformy X. 
 W pliku twitter_config.json zamieniamy hashtagi na poprawne dane z API Twittera z konta developerskiego.
-
+W razie potrzeby jestem w stanie pokazać, że skrypt działa na własnych danych.
 
 ## Zrzuty ekranu bazy
 
